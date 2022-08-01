@@ -6,11 +6,11 @@ const Banner = () => {
   return (
     <>
       <div className="flex container justify-center main-div">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 h-250 mx-auto">
           <img
             src="https://images.unsplash.com/photo-1611249021021-21220638532e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             alt=""
-            className="-z-50 "
+            className="-z-50 w-full "
           />
           <div className="text-onn-banner-img  ">
             <h3 className="text-6xl leading-14 text-emerald-500 text-on-img">
