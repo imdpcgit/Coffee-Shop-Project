@@ -59,7 +59,7 @@ const Footer = () => {
               <h2 className="title-font font-medium text-white-900 tracking-widest text-sm mb-3">
                 RECENT POSTS
               </h2>
-              <nav className="list-none mb-10">
+              <nav className="list-none mb-10 mt-6">
                 <li>
                   <div className="flex ">
                     <div>
@@ -69,7 +69,7 @@ const Footer = () => {
                         className="h-10"
                       />
                     </div>
-                    <div className="px-3">
+                    <div className="px-3 mb-3">
                       A compainon of extra sleeping
                       <p>23-jul-2021</p>{' '}
                     </div>
@@ -77,7 +77,7 @@ const Footer = () => {
                 </li>
                 <hr />
                 <li>
-                  <div className="flex  mt-2">
+                  <div className="flex  mt-5">
                     <div>
                       <img
                         src="https://images.unsplash.com/photo-1610379230744-2260350e2f17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
@@ -143,8 +143,8 @@ const Footer = () => {
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium  tracking-widest text-sm mb-3">
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4 leading-10">
+              <h2 className="title-font font-medium  tracking-widest text-sm mb-3 ">
                 FOOTER MENU
               </h2>
               <nav className="list-none mb-10">
