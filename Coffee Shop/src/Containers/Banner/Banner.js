@@ -24,8 +24,7 @@ const Banner = () => {
                 ab! Libero ratione ad atque fugiat quia molestias. In, suscipit.
               </p>
               <br />
-              <button className="border-2 readmore-btn ">Read More</button>
-              <button className="border-2 viewmore-btn ml-6 ">view More</button>
+              <Button />
             </div>
           </div>
         </div>
