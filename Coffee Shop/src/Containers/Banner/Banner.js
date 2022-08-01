@@ -1,11 +1,11 @@
-import React from 'react'
-import './Banner.css'
+import React from "react";
+import "./Banner.css";
 
 const Banner = () => {
   return (
     <>
       <div className="flex justify-center">
-        <div style={{ width: '75em' }}>
+        <div>
           <div>
             <img
               src="https://images.unsplash.com/photo-1611249021021-21220638532e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
@@ -31,7 +31,7 @@ const Banner = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;

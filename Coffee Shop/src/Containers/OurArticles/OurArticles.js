@@ -2,14 +2,14 @@ import React from "react";
 import "./OurArticles.css";
 import date1 from "../../Assets/date-1.png";
 import coffeeimg1 from "../../Assets/coffee image 1.JPG";
-import coffeeimg2 from "../../Assets/coffee image 2.JPG";
-import coffeeimg3 from "../../Assets/coffee image 3.JPG";
+import coffeeimg2 from "../../Assets/coffee image 2.jpg";
+import coffeeimg3 from "../../Assets/coffee image 3.jpg";
 const OurArticles = () => {
   return (
-    <div>
+    <div className="bg-zinc-100">
       <div className="container px-5 py-10 mx-auto">
         <div className="flex flex-col text-center w-full mb-2">
-          <h1 className="text-2xl font-medium title-font mb-5 text-green-900">
+          <h1 className="text-4xl font-medium title-font mb-5 text-green-900">
             Our Articles
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">
@@ -19,7 +19,7 @@ const OurArticles = () => {
       </div>
 
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -37,19 +37,15 @@ const OurArticles = () => {
                   alt="blog"
                 />
                 <div className="p-6">
-                  <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                    CATEGORY
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    The Catalyzer
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3 bg-emerald-800 text-center text text-white">
+                    DESIGN TRENDS, HAND MADE
                   </h1>
-                  <p className="leading-relaxed mb-3">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                  <p className="leading-relaxed mb-3 font-bold text-2xl text-center">
+                    Green interior design inspiration
                   </p>
                   <div className="flex items-center flex-wrap ">
                     <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
-                      Learn More
+                      Posted by S.Rogers
                       <svg
                         className="w-4 h-4 ml-2"
                         viewBox="0 0 24 24"
@@ -98,25 +94,30 @@ const OurArticles = () => {
             </div>
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <div className="img-for-zindez">
+                  <img
+                    src={date1}
+                    alt=""
+                    style={{ height: "50px", width: "50px" }}
+                    srcset=""
+                  />
+                </div>
                 <img
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src={coffeeimg2}
                   alt="blog"
                 />
+
                 <div className="p-6">
-                  <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                    CATEGORY
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    The 400 Blows
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3 bg-emerald-800 text-center text text-white">
+                    DESIGN TRENDS, INSPIRATION
                   </h1>
-                  <p className="leading-relaxed mb-3">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                  <p className="leading-relaxed mb-3 font-bold text-2xl text-center">
+                    Seating collection inspiration
                   </p>
-                  <div className="flex items-center flex-wrap">
+                  <div className="flex items-center flex-wrap ">
                     <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
-                      Learn More
+                      Posted by S.Rogers
                       <svg
                         className="w-4 h-4 ml-2"
                         viewBox="0 0 24 24"
@@ -165,25 +166,29 @@ const OurArticles = () => {
             </div>
             <div className="p-4 md:w-1/3">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <div className="img-for-zindez">
+                  <img
+                    src={date1}
+                    alt=""
+                    style={{ height: "50px", width: "50px" }}
+                    srcset=""
+                  />
+                </div>
                 <img
                   className="lg:h-48 md:h-36 w-full object-cover object-center"
                   src={coffeeimg3}
                   alt="blog"
                 />
                 <div className="p-6">
-                  <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                    CATEGORY
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Shooting Stars
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3 bg-emerald-800 text-center text text-white">
+                    DESIGN TRENDS, FUNRITURE
                   </h1>
-                  <p className="leading-relaxed mb-3">
-                    Photo booth fam kinfolk cold-pressed sriracha leggings
-                    jianbing microdosing tousled waistcoat.
+                  <p className="leading-relaxed mb-3 font-bold text-2xl text-center">
+                    Reinterprets the classical bookshelf
                   </p>
                   <div className="flex items-center flex-wrap ">
                     <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
-                      Learn More
+                      Posted by S.Rogers
                       <svg
                         className="w-4 h-4 ml-2"
                         viewBox="0 0 24 24"
