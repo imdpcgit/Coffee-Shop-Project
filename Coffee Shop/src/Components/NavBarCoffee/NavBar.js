@@ -14,11 +14,20 @@ const NavBar = () => {
                 <div className="nav-bar-component">
                   <a className="mr-5 hover:text-gray-900">Shop</a>
                 </div>
+                <div className="nav-bar-component">
+                  <a className="mr-5 hover:text-gray-900">Blog</a>
+                </div>
+                <div className="nav-bar-component">
+                  <a className="mr-5 hover:text-gray-900">Page</a>
+                </div>
+                <div className="nav-bar-component">
+                  <a className="mr-5 hover:text-gray-900">Elements</a>
+                </div>
+                <div className="nav-bar-component">
+                  <a className="mr-5 hover:text-gray-900">Buy</a>
+                </div>
 
-                <a className="mr-5 hover:text-gray-900 ">Blog</a>
-                <a className="mr-5 hover:text-gray-900 nav-bar-component">Pages</a>
-                <a className="mr-5 hover:text-gray-900 nav-bar-component">Elements</a>
-                <a className="mr-5 hover:text-gray-900 nav-bar-component">Buy</a>
+
               </nav>
 
               <a className="mr-5 hover:text-gray-900">Login/Register</a>

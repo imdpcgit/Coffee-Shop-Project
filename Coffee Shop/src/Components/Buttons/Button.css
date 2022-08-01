@@ -9,3 +9,8 @@
   height: 55px;
   width: 130px;
 }
+@media (min-width: 320px) and (max-width: 425px) {
+  /* .viewmore-btn {
+    margin: 0;
+  } */
+}

@@ -16,7 +16,7 @@ const NewFlavors = () => {
                             <h2 className="title-font text-3xl font-medium text-emerald-800 mt-6 mb-3">Try New Flavors First</h2>
                             <p className="leading-relaxed text-base">Come To the points </p>
 
-                            <div className="rounded-lg h-74 overflow-hidden">
+                            <div className="rounded-lg h-74 mx-auto overflow-hidden">
                                 <img alt="content" className="object-cover object-center h-full " src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" />
                             </div>
                         </div>

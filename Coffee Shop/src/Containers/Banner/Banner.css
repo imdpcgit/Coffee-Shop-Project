@@ -8,9 +8,10 @@
 }
 @media (min-width: 320px) and (max-width: 420px) {
   .text-on-img {
-    font-size: 24px;
+    /* font-size: 24px;
     margin: 15px;
-    font-weight: 600;
+    font-weight: 600; */
+    display: none;
   }
   .para-on-img {
     display: none;
@@ -19,6 +20,6 @@
     width: 100%;
   }
   .btn-on-banner {
-    margin-top: 18px;
+    margin-top: 70px;
   }
 }
