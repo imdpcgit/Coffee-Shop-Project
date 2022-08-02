@@ -24,4 +24,8 @@
   .findus-btn-indiv-on-img {
     margin: 0;
   }
+  .font-medium {
+    font-size: 14px;
+    line-height: normal;
+  }
 }
