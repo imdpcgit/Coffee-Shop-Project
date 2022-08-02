@@ -5,8 +5,8 @@ import heartimg from '../../Assets/heart.png'
 const NavBar = () => {
   return (
     <>
-      <div >
-        <div >
+      <div className='flex justify-center' >
+        <div style={{ width: "75em" }} >
           <header className="text-gray-600 body-font  m-8 z-50 bg-[#fff] rounded ">
             <div className="container mx-auto flex flex-wrap p-5  md:flex-row items-center nav-flex-in-media">
               <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-gray-400	flex flex-wrap items-center text-base justify-center">
