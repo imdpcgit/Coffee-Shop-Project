@@ -8,7 +8,7 @@ const NewFlavors = () => {
           <section className="text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto">
               <div className="flex flex-wrap -mx-4 -mb-10 text-center">
-                <div className="sm:w-1/2 mb-10  mx-auto">
+                <div className="sm:w-1/2 mb-10 mx-4">
                   <div className="rounded-lg h-full overflow-hidden">
                     <img
                       alt="content"
