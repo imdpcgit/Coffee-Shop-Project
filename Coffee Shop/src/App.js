@@ -6,16 +6,20 @@ import NavBar from "./Components/NavBarCoffee/NavBar";
 import Banner from "./Containers/Banner/Banner";
 import SignUp from "./Containers/SignUp/SignUp";
 import Footer from "./Components/Footer/Footer";
+import NewFlavors from './Containers/NewFlavors/NewFlavors';
+import CoffeeBeans from './Containers/CoffeeBeans/CoffeeBeans';
+import CoffeeRoast from './Containers/CoffeeRoast/CoffeeRoast';
 
 function App() {
   return (
     <>
       <NavBar />
-      {/* <Banner /> */}
-
+      <Banner />
       <OurCoffee />
-
+      <NewFlavors />
+      <CoffeeBeans />
       <BrewingEquipment />
+      <CoffeeRoast />
       <OurArticles />
       <SignUp />
       <Footer />
