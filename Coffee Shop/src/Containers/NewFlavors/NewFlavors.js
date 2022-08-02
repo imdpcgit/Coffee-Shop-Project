@@ -17,13 +17,14 @@ const NewFlavors = () => {
                     />
                   </div>
                 </div>
-                <div className="sm:w-1/3 mb-10 px-4  h-50">
+                <div className="sm:w-1/3 mb-10 px-4 mx-auto h-50 justify-center">
                   <h2 className="title-font text-3xl font-medium text-emerald-800 mt-6 mb-3">
                     Try New Flavors First
                   </h2>
                   <p className="leading-relaxed text-base">
                     Come To the points{" "}
                   </p>
+                  <p><u style={{ color: "green", cursor: "pointer" }}>Contact Us</u></p>
                   <br />
 
                   <div className="rounded-lg h-74 mx-auto overflow-hidden">
