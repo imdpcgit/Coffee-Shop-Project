@@ -2,4 +2,8 @@
   .nav-bar-component {
     display: none;
   }
+  .nav-flex-in-media {
+    display: flex;
+    justify-content: space-between;
+  }
 }
