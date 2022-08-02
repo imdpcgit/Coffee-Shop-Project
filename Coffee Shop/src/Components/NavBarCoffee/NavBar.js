@@ -7,31 +7,31 @@ const NavBar = () => {
     <>
       <div >
         <div >
-          <header className="text-gray-600 body-font cursor-pointer  m-8 z-50 bg-[#fff] rounded ">
+          <header className="text-gray-600 body-font  m-8 z-50 bg-[#fff] rounded ">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
               <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-                <a className="mr-5 hover:text-gray-900">Home</a>
+                <a className="mr-5 hover:text-gray-900 cursor-pointer ">Home</a>
                 <div className="nav-bar-component">
-                  <a className="mr-5 hover:text-gray-900">Shop</a>
+                  <a className="mr-5 hover:text-gray-900 cursor-pointer ">Shop</a>
                 </div>
                 <div className="nav-bar-component">
-                  <a className="mr-5 hover:text-gray-900">Blog</a>
+                  <a className="mr-5 hover:text-gray-900 cursor-pointer ">Blog</a>
                 </div>
                 <div className="nav-bar-component">
-                  <a className="mr-5 hover:text-gray-900">Page</a>
+                  <a className="mr-5 hover:text-gray-900 cursor-pointer ">Page</a>
                 </div>
                 <div className="nav-bar-component">
-                  <a className="mr-5 hover:text-gray-900">Elements</a>
+                  <a className="mr-5 hover:text-gray-900 cursor-pointer ">Elements</a>
                 </div>
                 <div className="nav-bar-component">
-                  <a className="mr-5 hover:text-gray-900">Buy</a>
+                  <a className="mr-5 hover:text-gray-900 cursor-pointer ">Buy</a>
                 </div>
 
 
               </nav>
 
-              <a className="mr-5 hover:text-gray-900">Login/Register</a>
-              <a className="mr-5 hover:text-gray-900">
+              <a className="mr-5 hover:text-gray-900 cursor-pointer ">Login/Register</a>
+              <a className="mr-5 hover:text-gray-900 cursor-pointer ">
                 <img src={heartimg} alt="" className="h-4" />
               </a>
             </div>
