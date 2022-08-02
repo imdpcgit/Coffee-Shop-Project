@@ -41,18 +41,20 @@ const OurCoffee = () => {
           <div className="container px-5 py-10 mx-auto">
             <div className="flex flex-wrap -m-4">
               <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-                <a
-                  className="block relative h-48 rounded overflow-hidden"
-                  style={{ height: "300px" }}
-                >
-                  <img
+                <div className="justify-center flex">
+                  <a
+                    className="block relative h-48 rounded overflow-hidden"
                     style={{ height: "300px" }}
-                    alt="ecommerce"
-                    className="object-cover object-center w-full h-full block"
-                    src={coffeeimg1}
-                  />
-                </a>
-                <div className="mt-4">
+                  >
+                    <img
+                      style={{ height: "250px", width: " 200px" }}
+                      alt="ecommerce"
+                      className="object-cover object-cover-img object-center w-full h-full block"
+                      src={coffeeimg1}
+                    />
+                  </a>
+                </div>
+                <div className="mt-4 text-center">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                     Kenya Coffee
                   </h3>
@@ -63,18 +65,20 @@ const OurCoffee = () => {
                 </div>
               </div>
               <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-                <a
-                  className="block relative h-48 rounded overflow-hidden"
-                  style={{ height: "300px" }}
-                >
-                  <img
+                <div className="justify-center flex">
+                  <a
+                    className="block relative h-48 rounded overflow-hidden"
                     style={{ height: "300px" }}
-                    alt="ecommerce"
-                    className="object-cover object-center w-full h-full block"
-                    src={coffeeimg2}
-                  />
-                </a>
-                <div className="mt-4">
+                  >
+                    <img
+                      style={{ height: "250px", width: " 200px" }}
+                      alt="ecommerce"
+                      className="object-cover object-center w-full h-full block"
+                      src={coffeeimg2}
+                    />
+                  </a>
+                </div>
+                <div className="mt-4 text-center">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                     Brazil Diamond
                   </h3>
@@ -85,18 +89,20 @@ const OurCoffee = () => {
                 </div>
               </div>
               <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-                <a
-                  className="block relative h-48 rounded overflow-hidden"
-                  style={{ height: "300px" }}
-                >
-                  <img
+                <div className="justify-center flex">
+                  <a
+                    className="block relative h-48 rounded overflow-hidden"
                     style={{ height: "300px" }}
-                    alt="ecommerce"
-                    className="object-cover object-center w-full h-full block"
-                    src={coffeeimg3}
-                  />
-                </a>
-                <div className="mt-4">
+                  >
+                    <img
+                      style={{ height: "250px", width: " 200px" }}
+                      alt="ecommerce"
+                      className="object-cover object-center w-full h-full block"
+                      src={coffeeimg3}
+                    />
+                  </a>
+                </div>
+                <div className="mt-4 text-center">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                     Colombia Bucaramanga
                   </h3>
@@ -107,18 +113,20 @@ const OurCoffee = () => {
                 </div>
               </div>
               <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-                <a
-                  className="block relative h-48 rounded overflow-hidden"
-                  style={{ height: "300px" }}
-                >
-                  <img
+                <div className="justify-center flex">
+                  <a
+                    className="block relative h-48 rounded overflow-hidden"
                     style={{ height: "300px" }}
-                    alt="ecommerce"
-                    className="object-cover object-center w-full h-full block"
-                    src={coffeeimg4}
-                  />
-                </a>
-                <div className="mt-4">
+                  >
+                    <img
+                      style={{ height: "250px", width: " 200px" }}
+                      alt="ecommerce"
+                      className="object-cover object-center w-full h-full block"
+                      src={coffeeimg4}
+                    />
+                  </a>
+                </div>
+                <div className="mt-4 text-center">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                     Guatemala Huehuetenango
                   </h3>

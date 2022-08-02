@@ -39,7 +39,7 @@ const OurArticles = () => {
                     alt="blog"
                   />
                   <div className="p-6">
-                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3 bg-emerald-800 text-center text text-white">
+                    <h1 className="title-font text-lg font-medium text-white mb-3 bg-emerald-800 text-center">
                       DESIGN TRENDS, HAND MADE
                     </h1>
                     <p className="leading-relaxed mb-3 font-bold text-2xl text-center">
@@ -111,7 +111,7 @@ const OurArticles = () => {
                   />
 
                   <div className="p-6">
-                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3 bg-emerald-800 text-center text text-white">
+                    <h1 className="title-font text-lg font-medium mb-3 bg-emerald-800 text-center text-white">
                       DESIGN TRENDS, INSPIRATION
                     </h1>
                     <p className="leading-relaxed mb-3 font-bold text-2xl text-center">
@@ -182,7 +182,7 @@ const OurArticles = () => {
                     alt="blog"
                   />
                   <div className="p-6">
-                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3 bg-emerald-800 text-center text text-white">
+                    <h1 className="title-font text-lg font-medium mb-3 bg-emerald-800 text-center text-white">
                       DESIGN TRENDS, FUNRITURE
                     </h1>
                     <p className="leading-relaxed mb-3 font-bold text-2xl text-center">

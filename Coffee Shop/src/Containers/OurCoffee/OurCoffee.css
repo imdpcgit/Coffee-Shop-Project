@@ -5,3 +5,7 @@
   display: flex;
   justify-content: center;
 }
+.object-cover-img {
+  height: 300px;
+  width: 300px;
+}

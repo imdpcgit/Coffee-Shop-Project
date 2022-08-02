@@ -1,9 +1,10 @@
 import React from "react";
 import "./BrewingEquipment.css";
-import brewingequipment1 from "../../Assets/coffee-brewing-equipment-1.jpg";
-import brewingequipment2 from "../../Assets/coffee-brewing-equipment-2.jpg";
-import brewingequipment3 from "../../Assets/coffee-brewing-equipment-3.jpg";
-import brewingequipment4 from "../../Assets/coffee-brewing-equipment-4.jpg";
+// import brewingequipment1 from "../../Assets/coffee-brewing-equipment-11.jpg";
+import brewingequipment1 from "../../Assets/coffee-brewing-equipment-1-removebg-preview.png";
+import brewingequipment2 from "../../Assets/coffee-brewing-equipment-2-removebg-preview.png";
+import brewingequipment3 from "../../Assets/coffee-brewing-equipment-3-removebg-preview.png";
+import brewingequipment4 from "../../Assets/coffee-brewing-equipment-4-removebg-preview.png";
 import WidthSpecific from "../../Components/Width75em/WidthSpecific";
 const BrewingEquipment = () => {
   return (
@@ -23,18 +24,20 @@ const BrewingEquipment = () => {
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a
-                className="block relative h-48 rounded overflow-hidden"
-                style={{ height: "300px" }}
-              >
-                <img
+              <div className="justify-center flex">
+                <a
+                  className="block relative h-48 rounded overflow-hidden"
                   style={{ height: "300px" }}
-                  alt="ecommerce"
-                  className="object-cover object-center w-full h-full block"
-                  src={brewingequipment1}
-                />
-              </a>
-              <div className="mt-4">
+                >
+                  <img
+                    style={{ height: "290px", width: " 300px" }}
+                    alt="ecommerce"
+                    className="object-cover object-center w-full h-full block"
+                    src={brewingequipment1}
+                  />
+                </a>
+              </div>
+              <div className="mt-4 text-center">
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Coffee Grinder
                 </h3>
@@ -45,18 +48,20 @@ const BrewingEquipment = () => {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a
-                className="block relative h-48 rounded overflow-hidden"
-                style={{ height: "300px" }}
-              >
-                <img
+              <div className="justify-center flex">
+                <a
+                  className="block relative h-48 rounded overflow-hidden"
                   style={{ height: "300px" }}
-                  alt="ecommerce"
-                  className="object-cover object-center w-full h-full block"
-                  src={brewingequipment2}
-                />
-              </a>
-              <div className="mt-4">
+                >
+                  <img
+                    style={{ height: "290px", width: " 300px" }}
+                    alt="ecommerce"
+                    className="object-cover object-center w-full h-full block"
+                    src={brewingequipment2}
+                  />
+                </a>
+              </div>
+              <div className="mt-4 text-center">
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Faema E71E GTI
                 </h3>
@@ -72,13 +77,13 @@ const BrewingEquipment = () => {
                 style={{ height: "300px" }}
               >
                 <img
-                  style={{ height: "300px" }}
+                  style={{ height: "290px", width: " 300px" }}
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src={brewingequipment3}
                 />
               </a>
-              <div className="mt-4">
+              <div className="mt-4 text-center">
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Coffee Kettle
                 </h3>
@@ -94,13 +99,13 @@ const BrewingEquipment = () => {
                 style={{ height: "300px" }}
               >
                 <img
-                  style={{ height: "300px" }}
+                  style={{ height: "290px", width: " 300px" }}
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   src={brewingequipment4}
                 />
               </a>
-              <div className="mt-4">
+              <div className="mt-4 text-center">
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                   Bottomless Portafilter
                 </h3>
