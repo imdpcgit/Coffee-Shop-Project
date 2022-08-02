@@ -1,9 +1,10 @@
-import React from 'react'
-import './Footer.css'
+import React from "react";
+import WidthSpecific from "../Width75em/WidthSpecific";
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <>
+    <WidthSpecific>
       <footer className="text-white-600 body-font bg-black text-white">
         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
@@ -71,7 +72,7 @@ const Footer = () => {
                     </div>
                     <div className="px-3 mb-3">
                       A compainon of extra sleeping
-                      <p>23-jul-2021</p>{' '}
+                      <p>23-jul-2021</p>{" "}
                     </div>
                   </div>
                 </li>
@@ -245,8 +246,8 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-    </>
-  )
-}
+    </WidthSpecific>
+  );
+};
 
-export default Footer
+export default Footer;
