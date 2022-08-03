@@ -8,7 +8,7 @@ const CoffeeBeans = () => {
       <WidthSpecific>
         <section className="text-gray-600 body-font overflow-hidden">
           <div className="container px-5 py-24 mx-auto">
-            <div className=" mx-auto flex flex-wrap">
+            <div className=" mx-auto flex flex-wrap text-center">
               <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
                 <h2 className="text-sm title-font text-gray-500 tracking-widest"></h2>
                 <h1 className="text-emerald-900 text-3xl title-font font-medium mb-4">

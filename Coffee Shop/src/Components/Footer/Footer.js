@@ -10,50 +10,27 @@ const Footer = () => {
         <footer className="text-white-600 body-font bg-black text-white">
           <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
             <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-              {/* <a className="flex title-font font-medium items-center md:justify-start justify-center text-white-900">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                            </svg>
-                            <span className="ml-3 text-xl">Tailblocks</span>
-                        </a> */}
               <p className="mt-9 text-sm ">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Eveniet sunt doloremque temporibus
               </p>
-              <div className="footer-content-first-column mt-3">
-                <div>
-                  <img
-                    src="https://cdn-icons.flaticon.com/png/512/2099/premium/2099122.png?token=exp=1659348390~hmac=f87ebd716429dca8391e689f914f125c"
-                    alt=""
-                    className="h-3 "
-                  />
-                </div>
-                <div>
-                  <p>451 wall steet uk, London</p>
-                </div>
-              </div>
-              <div className="footer-content-first-column mt-1">
-                <div>
-                  <img
-                    src="https://cdn-icons.flaticon.com/png/512/3415/premium/3415074.png?token=exp=1659349527~hmac=004edae45e2f0d3e689f5c6085e9f816"
-                    alt=""
-                    className="h-3 "
-                  />
-                </div>
-                <div>
-                  <p>Phone:(064)332-1233</p>
-                </div>
-              </div>
-              <div className="footer-content-first-column mt-1">
-                <div>
-                  <img
-                    src="https://cdn-icons-png.flaticon.com/512/546/546394.png"
-                    alt=""
-                    className="h-3 "
-                  />
-                </div>
-                <div>
-                  <p>fax:(099)453-1357</p>
+              <div className="containing-phone-fax-address">
+                <div className="text-center ">
+                  <div className="footer-content-first-column mt-3">
+                    <div>
+                      <p>451 wall steet uk, London</p>
+                    </div>
+                  </div>
+                  <div className="footer-content-first-column mt-1">
+                    <div>
+                      <p>Phone:(064)332-1233</p>
+                    </div>
+                  </div>
+                  <div className="footer-content-first-column mt-1">
+                    <div>
+                      <p>fax:(099)453-1357</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

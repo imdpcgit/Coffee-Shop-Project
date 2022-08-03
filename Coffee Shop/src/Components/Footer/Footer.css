@@ -4,3 +4,12 @@
   /* text-align: center; */
   gap: 10px;
 }
+
+@media (min-width: 320px) and (max-width: 420px) {
+  .containing-phone-fax-address {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

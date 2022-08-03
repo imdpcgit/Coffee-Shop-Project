@@ -11,7 +11,9 @@ const OurCoffee = () => {
     <>
       <WidthSpecific>
         {" "}
+        {/* Contains code for ourCoffe section */}
         <div className="bg-zinc-100">
+          {/* Heading and sub-heading  */}
           <div className="container px-5 py-10 mx-auto">
             <div className="flex flex-col text-center w-full mb-2">
               <h1 className="text-4xl font-medium title-font mb-5 text-green-900">
@@ -22,6 +24,7 @@ const OurCoffee = () => {
               </p>
             </div>
           </div>
+          {/* Code for containing navbar section */}
           <div>
             <header className="text-gray-600 body-font">
               <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -38,9 +41,11 @@ const OurCoffee = () => {
               </div>
             </header>
           </div>
+          {/* Containing products and it's details */}
           <div className="container px-5 py-10 mx-auto">
             <div className="flex flex-wrap -m-4">
               <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+                {/* images for products */}
                 <div className="justify-center flex">
                   <a
                     className="block relative h-48 rounded overflow-hidden"
@@ -54,6 +59,7 @@ const OurCoffee = () => {
                     />
                   </a>
                 </div>
+                {/* Details about the product */}
                 <div className="mt-4 text-center">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                     Kenya Coffee
@@ -65,6 +71,8 @@ const OurCoffee = () => {
                 </div>
               </div>
               <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+                {/* images for products */}
+
                 <div className="justify-center flex">
                   <a
                     className="block relative h-48 rounded overflow-hidden"
@@ -78,6 +86,8 @@ const OurCoffee = () => {
                     />
                   </a>
                 </div>
+                {/* Details about the products */}
+
                 <div className="mt-4 text-center">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                     Brazil Diamond
@@ -89,6 +99,8 @@ const OurCoffee = () => {
                 </div>
               </div>
               <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+                {/* images for products */}
+
                 <div className="justify-center flex">
                   <a
                     className="block relative h-48 rounded overflow-hidden"
@@ -102,6 +114,8 @@ const OurCoffee = () => {
                     />
                   </a>
                 </div>
+                {/* Details about the products */}
+
                 <div className="mt-4 text-center">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                     Colombia Bucaramanga
@@ -113,6 +127,8 @@ const OurCoffee = () => {
                 </div>
               </div>
               <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+                {/* images for products */}
+
                 <div className="justify-center flex">
                   <a
                     className="block relative h-48 rounded overflow-hidden"
@@ -126,6 +142,8 @@ const OurCoffee = () => {
                     />
                   </a>
                 </div>
+                {/* Details about the products */}
+
                 <div className="mt-4 text-center">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                     Guatemala Huehuetenango

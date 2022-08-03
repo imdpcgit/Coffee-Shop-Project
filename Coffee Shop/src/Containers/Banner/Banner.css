@@ -23,7 +23,8 @@
     width: 100%;
   }
   .btn-on-banner {
-    margin-top: 42px;
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 8em;
   }
 }
