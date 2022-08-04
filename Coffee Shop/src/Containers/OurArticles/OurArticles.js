@@ -11,7 +11,7 @@ const OurArticles = () => {
       <div className="bg-zinc-100">
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-col text-center w-full mb-2">
-            <h1 className="text-4xl font-medium title-font mb-5 text-green-900">
+            <h1 className="text-4xl title-font mb-5 text-green-900">
               Our Articles
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">

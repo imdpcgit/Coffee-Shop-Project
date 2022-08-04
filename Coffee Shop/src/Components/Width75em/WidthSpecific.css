@@ -4,4 +4,6 @@
 .flex-center-container-for-75-em {
   display: flex;
   justify-content: center;
+  /* border-left: 15px solid black;
+  border-right: 15px solid black; */
 }
