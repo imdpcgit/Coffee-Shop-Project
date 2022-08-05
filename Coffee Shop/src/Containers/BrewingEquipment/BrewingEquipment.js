@@ -8,9 +8,13 @@ import brewingequipment4 from "../../Assets/coffee-brewing-equipment-4-removebg-
 import WidthSpecific from "../../Components/Width75em/WidthSpecific";
 const BrewingEquipment = () => {
   return (
+    // Here we call the width specific component for 75em width
+
     <WidthSpecific>
+      {/* code for Brewing Equipments container */}
       <div className="bg-zinc-100">
         <div className="container px-5 py-10 mx-auto">
+          {/* headings for equipments */}
           <div className="flex flex-col text-center w-full mb-2">
             <h1 className="text-4xl font-medium title-font mb-5 text-green-900">
               Brewing Equipment
@@ -20,7 +24,7 @@ const BrewingEquipment = () => {
             </p>
           </div>
         </div>
-
+        {/* code for all the products of brewing equipments */}
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">

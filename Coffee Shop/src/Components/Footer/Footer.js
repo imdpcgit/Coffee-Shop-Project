@@ -4,11 +4,15 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
+    // this is the component of Footer which we can use for multiple applications
     <div className="bg-black">
       {" "}
+      {/* Here we call the width specific component for 75em width */}
       <WidthSpecific>
+        {/* Code for footer component */}
         <footer className="text-white-600 body-font bg-black text-white">
           <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            {/* footer content */}
             <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
               <p className="mt-9 text-sm ">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.

@@ -5,9 +5,13 @@ import "./CoffeeBeans.css";
 const CoffeeBeans = () => {
   return (
     <>
+      {/* //Here we call the width specific component for 75em width */}
+
       <WidthSpecific>
+        {/* this section for coffe beans */}
         <section className="text-gray-600 body-font overflow-hidden">
           <div className="container px-5 py-24 mx-auto">
+            {/* left side column for details about coffee beans */}
             <div className=" mx-auto flex flex-wrap text-center">
               <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
                 <h2 className="text-sm title-font text-gray-500 tracking-widest"></h2>
@@ -24,10 +28,12 @@ const CoffeeBeans = () => {
                 </p>
 
                 <br />
+                {/* here we call the button component */}
                 <div>
                   <Button />
                 </div>
               </div>
+              {/* right side column which contain image */}
               <img
                 alt="ecommerce"
                 className="lg:w-1/2 w-full lg:h-auto h-64  object-center rounded"

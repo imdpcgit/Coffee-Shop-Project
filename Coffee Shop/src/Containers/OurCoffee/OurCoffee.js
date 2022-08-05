@@ -9,6 +9,8 @@ import WidthSpecific from "../../Components/Width75em/WidthSpecific";
 const OurCoffee = () => {
   return (
     <>
+      {/* Here we call the width specific component for 75em width */}
+
       <WidthSpecific>
         {" "}
         {/* Contains code for ourCoffe section */}

@@ -7,8 +7,11 @@ import WidthSpecific from "./../../Components/Width75em/WidthSpecific";
 const CoffeeRoast = () => {
   return (
     <>
+      {/* Here we call the width specific component for 75em width */}
       <WidthSpecific>
+        {/* code for coffee roast section */}
         <section className="text-gray-600 body-font">
+          {/* contains image of the left side column and also the description about the coffee roasts */}
           <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
               <img
@@ -37,6 +40,8 @@ const CoffeeRoast = () => {
                 cardigan.
               </p>
               <br />
+              {/* //Here we call the width specific component for 75em width */}
+
               <div>
                 <Button />
               </div>

@@ -5,8 +5,11 @@ import WidthSpecific from "../../Components/Width75em/WidthSpecific";
 
 const Banner = () => {
   return (
+    // Here we call the width specific component for 75em width
     <WidthSpecific>
+      {/* Banner section after the navbar component */}
       <div className="flex container justify-center main-div">
+        {/* Banner sections */}
         <div className="container px-5 h-200 mx-auto">
           <div style={{ height: "423px" }}>
             <img
@@ -28,6 +31,7 @@ const Banner = () => {
               ab! Libero ratione ad atque fugiat quia molestias. In, suscipit.
             </p>
             <br />
+            {/* here we call the Buttons component */}
             <div className="btn-on-banner px-5 ">
               <Button />
             </div>

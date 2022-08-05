@@ -4,9 +4,14 @@ import WidthSpecific from "./../../Components/Width75em/WidthSpecific";
 const NewFlavors = () => {
   return (
     <>
+      {/* Here we call the width specific component for 75em width */}
+
       <WidthSpecific>
+        {/* this is the section for flavors that we have in out shop */}
+        {/* code for images and the details about the flavors */}
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto">
+            {/* code for image and description */}
             <div className="flex flex-wrap -mx-4 -mb-10 text-center">
               <div className="sm:w-1/2 mb-10 mx-4">
                 <div className="rounded-lg h-full overflow-hidden">
