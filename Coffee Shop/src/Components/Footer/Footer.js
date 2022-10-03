@@ -19,7 +19,7 @@ const Footer = () => {
                 Eveniet sunt doloremque temporibus
               </p>
               <div className="containing-phone-fax-address">
-                <div className="text-center ">
+                <div className="text-center py-10">
                   <div className="footer-content-first-column mt-3">
                     <div>
                       <p>451 wall steet uk, London</p>
